@@ -12,14 +12,14 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./result/result-desktop.jpeg)
+![Resultado Desktop](./result/result-desktop.jpeg)
 
-![](./result/result-mobile.jpeg)
+![Resultado Mobile](./result/result-mobile.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/profile/PatrickTav)
+- Live Site URL: [Add live site URL here](https://cartao-de-carros.vercel.app/)
 
 
 
