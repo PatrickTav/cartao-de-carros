@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif*/
+}
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+body{
+    font-size: 15px;
+    
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    margin-top:150px;
+    box-sizing: border-box;
+   
+    
+}
+
+svg{
+    margin: 30px 0px 0px 25px;
+}
+
+.card> .luxury, .sedans,.suvs {
+    
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    
+     
+}
+
+
+.sedans{
+    float: left;
+    width: 230px;
+    background-color: var(--Bright-orange);
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+.suvs{
+    margin:  auto;
+    width: 230px;
+    background-color: var(--Dark-cyan);
+}
+
+.luxury{
+    position: relative;
+    float: right;
+    right: 9.9px;
+    width:230px;
+    height: 400px;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0px 5px 5px 0px;
+}
+
+h2{
+    margin: 30px 0px 0px 30px;
+    font-family:'Big Shoulders Display', cursive; ;
+    text-transform: uppercase;
+    color: var(--Very-light-gray);
+}
+
+p{
+    margin: 30px 20px 0px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent-white);
+    font-size: 0.8em;
+}
+
+.links{
+    margin: 90px 0px 0px 30px;
+    display: inline-block;
+    background-color: var(--Transparent-white);
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.luxury > a{
+    color: var(--Very-dark-cyan);
+}
+
+.sedans > a{
+    color: var(--Bright-orange);
+} 
+
+.suvs > a {
+    color: var(--Dark-cyan);
+}
+
+
+/*mobile 720px*/
+
+@media screen and (max-width: 720px) {
+   .container{
+       width: 80%;
+       margin: auto;
+       overflow: hidden;
+       margin-top: 100px;
+      
+   }
+   
+.sedans{
+    display: block;
+    float: none;
+    width: 230px;
+    background-color: var(--Bright-orange);
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.suvs{
+    display: block;
+    width: 230px;
+    background-color: var(--Dark-cyan);
+}
+
+.luxury{
+    position: static;
+    float: none;
+    display: block;
+    width:230px;
+    height: 400px;
+    background-color: var(--Very-dark-cyan);
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+}
